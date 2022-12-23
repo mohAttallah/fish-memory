@@ -1,0 +1,147 @@
+/*
+1A120B
+3C2A21
+D5CEA3
+E5E5CB
+*/
+:root {
+    --FF597B: #FF597B;
+    --FF8E9E:#FF8E9E;
+    --F9B5D0:#F9B5D0;
+    --EEEEEE:#EEEEEE;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color:#EEEEEE;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color:var(--FF597B);
+}
+h4{
+    margin-top: -10px;
+    color: var(--FF8E9E);
+}
+h5{
+    color: var(--FF8E9E);
+    margin-top: 100px;
+    text-align: center;
+}
+.container{
+    margin-top: 30px;
+}
+.inputDiv .clearAll{
+    display: none;
+    
+}
+.container .inputDiv{
+    background-color:var(--FF597B);
+    width:400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container .inputDiv input{
+    border: none;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    color:var(--EEEEEE);
+    font-weight: bold;
+    background-color: var(--FF8E9E);
+    border-radius: 10px;
+}
+.container .inputDiv input::placeholder{
+    color:var(--EEEEEE);
+}
+.container .inputDiv input:focus{
+    background-color:var(--EEEEEE);
+    color:var(--FF597B) ;
+}
+.container .inputDiv button{
+    border: none;
+    margin-left: 15px;
+    height: 40px;
+    background-color:var(--FF8E9E);
+    color: var(--EEEEEE);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px;
+}
+.container .inputDiv button:hover{
+    background-color:var(--EEEEEE) ;
+    color: var(--F9B5D0);
+}
+/*Tasks Class, it's imprtant For JS */
+
+.container  .tasks{
+    /* display: block !important; */
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:var(--FF597B);
+    padding: 10px; 
+}
+.container .tasks .task1{
+    background-color:var(--FF8E9E);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.container .tasks .task1 span{
+    display: block;
+    width: 300px;
+    font-size: 17px;
+    color: var(--EEEEEE);
+    font-weight: bold;
+}
+.container .tasks .task1 button{
+    border: none;
+    margin-left: 15px;
+    background-color: var(--EEEEEE);
+    color: var(--FF597B);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.container .tasks .task1 button:hover{
+    background-color: var(--FF597B);
+    color: var(--EEEEEE);
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: 750px;
+    }
+    .container .inputDiv {
+            width: 300px;
+            
+        }
+        .container .tasks .task1 span {
+            display: block;
+            width: 300px;
+            font-size: 17px;
+            color: var(--EEEEEE);
+            font-weight: bold;
+        }
+    .container .tasks{
+        width: 300px;
+    }
+    .container .inputDiv input{
+        width: 150px;
+    }
+}
+
+/* 82AAE3, 91D8E4, BFEAF5, EAFDFC */
